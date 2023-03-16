@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/timerFragment"
+        android:title="타이머"
+        android:icon="@drawable/timer"
+        />
+
+    <item android:id="@+id/alarmFragment"
+        android:title="알람"
+        android:icon="@drawable/alarm_1_"/>
+
+    <item android:id="@+id/stopwatchFragment"
+        android:title="스톱워치"
+        android:icon="@drawable/stopwatch"
+        />
+
+</menu>
