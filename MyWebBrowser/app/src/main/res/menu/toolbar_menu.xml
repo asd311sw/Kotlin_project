@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/back"
+        android:icon="@drawable/arrow_back"
+        android:title="back"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/forward"
+        android:icon="@drawable/arrow_forward"
+        android:title="forward"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="홈"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/browser"
+        android:title="검색 사이트">
+        <menu>
+            <item
+                android:id="@+id/naver"
+                android:title="네이버" />
+            <item
+                android:id="@+id/google"
+                android:title="Google" />
+
+            <item
+                android:id="@+id/bing"
+                android:title="Bing" />
+            <item
+                android:id="@+id/nextPage"
+                android:title="다음 페이지" />
+        </menu>
+    </item>
+
+
+    <item
+        android:id="@+id/developInfo"
+        android:title="개발자 정보">
+
+        <menu>
+            <item
+                android:id="@+id/phoneNumber"
+                android:title="연락처" />
+
+            <item
+                android:id="@+id/sendMessage"
+                android:title="문자 보내기" />
+
+            <item
+                android:id="@+id/sendEmail"
+                android:title="이메일 보내기" />
+        </menu>
+    </item>
+
+
+</menu>
